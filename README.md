@@ -15,14 +15,14 @@ wikipedia: For fetching Wikipedia summaries.
 
 ### To install these, run: pip install pyttsx3 SpeechRecognition wikipedia-api
 
-# Usage
+## Usage
 Initialize the assistant by running the script.
 
-# Commands: Speak your command after the assistant starts listening. Supported commands include:
+## Commands: Speak your command after the assistant starts listening. Supported commands include:
 "open YouTube <search term>": Opens YouTube and searches for the specified term.
 "search Wikipedia <search term>": Retrieves and reads a short Wikipedia summary of the specified term.
 
-# Response: The assistant will respond audibly to valid commands or notify if it cannot understand the command.
+## Response: The assistant will respond audibly to valid commands or notify if it cannot understand the command.
 
 ## How It Works
 Speech Recognition: The assistant listens to audio input via the microphone and uses Google Speech Recognition to transcribe the command.
